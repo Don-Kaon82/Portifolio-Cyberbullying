@@ -210,6 +210,10 @@ ol.numbered p{ color:var(--ink-soft); margin:0; font-size:.95rem; }
 /* student work cards */
 .work-card{ display:flex; flex-direction:column; gap:10px; }
 .work-card .tag{ font-family:var(--mono); font-size:.7rem; color:var(--ink-soft); letter-spacing:.03em; }
+.work-head{ display:flex; align-items:center; gap:9px; }
+.work-icon{ width: 45px; height: 45px; flex-shrink:0; color:var(--teal-deep); }
+img.work-icon{ object-fit:cover; border-radius:50%; border:1px solid var(--line); }
+.work-card.pending .work-icon{ color:var(--amber-deep); }
 .work-card h3{ font-family:var(--serif); font-weight:600; font-size:1.1rem; margin:0; }
 .work-card p{ color:var(--ink-soft); font-size:.9rem; margin:0; flex-grow:1; }
 .work-note{
